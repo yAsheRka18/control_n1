@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\object">
+      <UniqueIdentifier>{89c7d5ce-9b32-4fd5-ab72-35ee2be9dde5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\ui">
+      <UniqueIdentifier>{4d70227d-9456-4f3c-91af-0c9354ee22c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\db">
+      <UniqueIdentifier>{05aa1de4-1aff-4d9f-acde-0acfc29dae00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\test">
+      <UniqueIdentifier>{4d988dab-ee3f-492d-a50f-208c28c43f79}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="fileReader.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="ui.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="select.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="test.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Patient.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="fileReader.cpp">
+      <Filter>Исходные файлы\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="ui.cpp">
+      <Filter>Исходные файлы\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="select.cpp">
+      <Filter>Исходные файлы\db</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>Исходные файлы\test</Filter>
+    </ClCompile>
+    <ClCompile Include="Patient.cpp">
+      <Filter>Исходные файлы\object</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="patient.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
